@@ -1,10 +1,10 @@
 all: parse.o
 	gcc parse.o
 
-clean: 
+clean:
 	rm -f *~ *.gch* a.out *.o *#*
 
-run: 
+run:
 	./a.out
 
 parse.o: parse.c parse.h
