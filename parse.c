@@ -33,5 +33,6 @@ int main(){
   //   printf("%s\n", strsep( &s1, " "));
   //   x++;
   // }
+  free(args);
   return 0;
 }
