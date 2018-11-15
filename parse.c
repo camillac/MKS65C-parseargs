@@ -5,7 +5,8 @@
 
 char ** parse_args(char * line){
   char ** array = calloc(5, sizeof(char*));
-  char s[100] = "ls -al";
+  char s[100];
+  sprintf(s, "%s", line);
   char *s1 = s;
   int x = 0;
   while (s1){
